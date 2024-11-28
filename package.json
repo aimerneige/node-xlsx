@@ -5,6 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "node-xlsx": "^0.24.0",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+    "xlsx-js-style": "^1.2.0",
+    "xlsx-style": "^0.8.13"
   }
 }
