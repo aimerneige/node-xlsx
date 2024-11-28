@@ -55,7 +55,7 @@ ws["!cols"] = [{ wch: 14 }, { wch: 24 }];
 
 ws["!rows"] = [{ hpx: 24 }];
 
-xlsx.utils.book_append_sheet(wb, ws, "Sheet 1");
+xlsx.utils.book_append_sheet(wb, ws, "总账余额表");
 
 const filePath = "./output/total.xlsx";
 xlsx.writeFile(wb, filePath);
